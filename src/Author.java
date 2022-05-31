@@ -19,7 +19,7 @@ public class Author extends Person {
     public List<String> getBooks() {
         return books;
     }
-
+    @SuppressWarnings({})
     public List<String> publishedBooks() {
         return books;
     }
